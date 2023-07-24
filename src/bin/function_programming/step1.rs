@@ -1,5 +1,3 @@
-use std::sync::Arc;
-
 fn print_multiplication_table() {
     for i in 1..10 {
         for j in 1..=i {

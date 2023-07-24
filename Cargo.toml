@@ -1,0 +1,11 @@
+[package]
+name = "rust-examples"
+version = "0.1.0"
+authors = ["sujinyanslip@gmail.com"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "hello"
+path = "src/bin/std_examples/hello.rs"
