@@ -14,9 +14,9 @@ enum_dispatch = "0.3"
 name = "hello"
 path = "src/bin/std_examples/hello.rs"
 
-# [[bin]]
-# name = "async_trait"
-# path = "src/bin/async_trait/main.rs"
+[[bin]]
+name = "try_simd"
+path = "src/bin/simd/try_simd.rs"
 
 [[bench]]
 name = "async_trait"
@@ -24,4 +24,8 @@ harness = false
 
 [[bench]]
 name = "dynamic_dispatch"
+harness = false
+
+[[bench]]
+name = "simd_add"
 harness = false
